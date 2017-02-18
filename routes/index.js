@@ -50,7 +50,7 @@ router.get('/:link',function(req,res,next){
              res.json(toSend);
          }
          else{
-              toSend={originalUrl:items[0].link,link:'https://fcc-urlshort-mankirk.c9users.io/'+items[0].nr}
+              toSend={originalUrl:items[0].link,link:'https://fcc-urlshorteners.herokuapp.com/'+items[0].nr}
               res.json(toSend);
              
          }
