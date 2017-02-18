@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mankirk-Url Shortener</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <h1>Url Shortener</h1>
+    <p>by Mankirk</p>
+    <p>Give us an Url and we'l make it shorter.</p>
+    
+    <h3>How it works:</h3>
+    <p>Pass a link at the end of the homepage url,something like this:</p>
+    
+    <p><code>https://little-url.herokuapp.com/new/https://www.google.com</code></p>
+    <p>You should receive an API looking like this:</p>
+    <p><code>{ "original_url":"http://foo.com:80", "short_url":"https://little-url.herokuapp.com/8170" }</code></p>
+    
+    <p>Access the "short-url" provided and it will take you to the page you provided earlier.</p>
+  </body>
+</html>
